@@ -36,7 +36,7 @@ struct process_id {
 struct process_id_ext {
   unsigned ip;
   short port;
-  unsigned short pid;
+  unsigned int pid;
   int utime;
   int actor_id;
 };

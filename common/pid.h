@@ -29,7 +29,7 @@
 struct process_id {
   unsigned ip;
   short port;
-  unsigned short pid;
+  unsigned int pid;
   int utime;
 };
 
